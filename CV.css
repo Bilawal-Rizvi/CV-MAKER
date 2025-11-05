@@ -1,0 +1,112 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.cont1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 20px 20px 30px;
+}
+input{
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius:5px ;
+    padding-left: 5px;
+}
+label{
+    font-size: 1.2rem;
+    background-color: rgb(8, 8, 171);
+    color: white;
+    height: 25px;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 5px 25px 5px;
+}
+.cont2 {
+  width: 70%;
+  height: max-content;
+  display: flex;
+}
+.mains {
+  width: 35%;
+  background-color: rgb(48, 48, 167);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 10px 30px 10px;
+  color: white;
+}
+.Mydata {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+#name {
+  align-self: center;
+  background-color: darkblue;
+}
+.Mydata img {
+  border-radius: 50%;
+}
+.address,
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 63%;
+  gap: 5px;
+}
+.Skills,
+.Lang,
+.Education,
+.Personality {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20px;
+  gap: 10px;
+}
+.Skills h2,
+.Lang h2,
+.Education h2,
+.Personality h2 {
+  background-color: darkblue;
+
+  width: 100%;
+}
+.Skills ol,
+ul {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Education ul {
+  list-style: none;
+}
+.Personality ul {
+  list-style: circle;
+}
+.sections{
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0 10px 40px;
+  gap: 20px;
+  width: 60%;
+}
